@@ -6,6 +6,71 @@
 // TYPOGRAPHY
 // -----------------------------------------------------
 
+body{
+  font-family: 'proxima-nova';
+  color:#666666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Varela Round, arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.4em;
+  text-transform: normal;
+  font-size: 24px;
+  font-family: "proxima-nova";
+  font-size: 26px;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 600;
+  font-style: normal;
+  margin: 1em 0 0.5em;
+
+  color:#111;
+
+  margin: 0 0 10px;
+  line-height: 1.2;
+
+  a {
+    color: @headingsColor;
+  }
+}
+
+h1 { font-size: 24px; }
+
+h2 { font-size: 20.8px; }
+
+h3 { font-size: 19px; }
+
+h4 { font-size: 17px; }
+
+h5 { font-size: 15px; }
+
+h6 { font-size: 14px; }
+
+p{
+  font-family: "ff-tisa-web-pro";
+  font-size: 14px;
+  line-height: 1.6em;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 0 1em;
+}
+
+blockquote p{
+  font-size: 14px;
+  line-height: 1.6em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+  transition:opacity 100ms linear;
+}
+a:hover{
+  color:#444;
+}
+
+
 // SCAFFOLDING
 // -----------------------------------------------------
 
@@ -18,11 +83,66 @@
 // BUTTONS
 // -----------------------------------------------------
 
+.btn{
+  background-color: #272727;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  font: 12px/1em 'Helvetica Neue', helvetica, arial, sans-serif;
+  font-weight: normal;
+  padding: 14px 18px;
+  text-align: center;
+  -webkit-appearance: none;
+  text-shadow: none;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  filter: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-primary{
+  background-color: #272727;
+}
+
+.btn-info{
+  background-color:#5bc0de;
+}
+
 // TABLES
 // -----------------------------------------------------
 
 // FORMS
 // -----------------------------------------------------
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 0.5em 0 0;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: normal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size:12px;
+  height:auto;
+}
 
 // DROPDOWNS
 // -----------------------------------------------------
